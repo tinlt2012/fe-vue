@@ -20,7 +20,7 @@ export default {
   methods: {
     async submitForm() {
       try {
-        const response = await fetch('http://3.145.112.168/:8080/insert', {
+        const response = await fetch('http://18.224.70.106:8080/insert', {
           method: 'POST',
           headers: {
             'Content-Type': 'text/plain',
